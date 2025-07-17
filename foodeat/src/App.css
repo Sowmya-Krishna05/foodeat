@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("https://i.pinimg.com/1200x/b0/ee/d0/b0eed0c4f247b1ca91c1551a56a3c5eb.jpg");
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  color: #d8d8d8;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: orange;
+}
+
+.menu a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menu a:hover {
+  color: orange;
+}
+
+/* Glass Effect */
+.glass {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1rem;
+}
+
+.hero-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: orange;
+  color: white;
+}
+
+/* Top List */
+.top-list {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.card-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.card {
+  width: 220px;
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.card-info {
+  margin-top: 1rem;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  color: #fffafa;
+  background: rgba(252, 251, 250, 0.411);
+}
+
+.rating {
+  font-weight: bold;
+  color: goldenrod;
+}
+
+/* Footer */
+.services {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.services h4 {
+  margin-bottom: 1rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
